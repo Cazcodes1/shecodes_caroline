@@ -1,0 +1,166 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 96px;
+  margin: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+a:hover {
+  color: #0a58ca;
+}
+
+.information {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.information a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  padding: 20px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.about {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 20px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.homepage {
+  display: block;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.container {
+  display: block;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.div {
+  display: block;
+}
+
+p {
+  text-align: left;
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 20px;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.app-buttons {
+  margin-left: 35px;
+}
+
+@media (max-width: 798px) {
+  .app-buttons {
+    text-align: center;
+  }
+}
+
+@media (max-width: 798px) {
+  p {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 3;
+  }
+}
+@media (max-width: 798px) {
+  .app-buttons {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 798px) {
+  .yogaapp-heading {
+    margin-top: 2rem !important;
+    margin-bottom: -2rem !important;
+  }
+}
+
+@media (max-width: 798px) {
+  .weatherapp-heading {
+    margin-top: 3rem !important;
+    margin-bottom: -2rem !important;
+  }
+}
+
+@media (max-width: 798px) {
+  .yogurtapp-heading {
+    margin-top: -1rem !important;
+    margin-bottom: -2rem !important;
+  }
+}
